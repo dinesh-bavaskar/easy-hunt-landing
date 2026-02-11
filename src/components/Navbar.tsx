@@ -80,18 +80,24 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-10 lg:px-16 h-[72px] flex items-center justify-between">
           {/* Logo */}
           <div
-            onClick={() => scrollToSection("home")}
-            className="text-white text-2xl font-semibold tracking-wide cursor-pointer"
-          >
-            Easy Hunt
-          </div>
+  onClick={() => scrollToSection("home")}
+  className="flex items-center gap-3 cursor-pointer select-none"
+>
+  <img
+    src="/easyhunt.png"
+    alt="Easy Hunt Logo"
+    className="h-12 w-auto object-contain"
+
+  />
+ 
+</div>
+
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8 text-[15px]">
             <NavLink active={active === "home"} onClick={() => scrollToSection("home")}>Home</NavLink>
-           
-            <NavLink active={active === "how-it-works"} onClick={() => scrollToSection("how-it-works")}>How it Works</NavLink>
-             <NavLink active={active === "product"} onClick={() => scrollToSection("product")}>Features</NavLink>
+            <NavLink active={active === "how-it-works"} onClick={() => scrollToSection("how-it-works")}>How it works</NavLink>
+            <NavLink active={active === "product"} onClick={() => scrollToSection("product")}>Features</NavLink>
             <NavLink active={active === "platform"} onClick={() => scrollToSection("platform")}>Platform</NavLink>
             <NavLink active={active === "faq"} onClick={() => scrollToSection("faq")}>FAQs</NavLink>
             <NavLink active={active === "footer"} onClick={() => scrollToSection("footer")}>Contact</NavLink>
@@ -122,7 +128,7 @@ export default function Navbar() {
             className="md:hidden mx-6 mt-3 rounded-2xl bg-[#0b0f25]/95 backdrop-blur-xl border border-white/10 p-6 space-y-5 text-gray-300"
           >
             <MobileLink onClick={() => scrollToSection("home")}>Home</MobileLink>
-           <MobileLink onClick={() => scrollToSection("how-it-works")}>How it Works</MobileLink>
+            <MobileLink onClick={() => scrollToSection("how-it-works")}>How it works</MobileLink>
             <MobileLink onClick={() => scrollToSection("product")}>Features</MobileLink>
             
             <MobileLink onClick={() => scrollToSection("platform")}>Platform</MobileLink>

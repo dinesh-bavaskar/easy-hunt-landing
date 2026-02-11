@@ -1,49 +1,73 @@
-# 🔍 EasyHunt – Job Search Landing Page
+🚀 EasyHunt – Landing Page
 
-🚀 **Live Demo:** https://easy-hunt-landing-rho.vercel.app/  
-📂 **GitHub Repository:** https://github.com/dinesh-bavaskar/easy-hunt-landing
+EasyHunt is a modern and responsive landing page designed to showcase job search and career-related services. The project focuses on clean UI, smooth user experience, and fast performance.
 
----
+🌐 Live Demo
 
-## 🧠 Project Overview
+👉 Live Website:
+https://easy-hunt-landing-rho.vercel.app/
 
-EasyHunt is a modern and responsive **job-search landing page** built using React and TypeScript.  
-The project focuses on delivering a clean, intuitive, and visually engaging user interface while following modern frontend development practices.
+🛠️ Tech Stack
 
-Designed with performance and responsiveness in mind, the application demonstrates real-world UI structuring and component-driven design.
+⚛️ React.js
 
----
+🎨 CSS / Tailwind CSS
 
-## 🛠 Tech Stack
+⚡ Vite
 
-- React.js
-- Farmer motion
-- TypeScript
-- Vite
-- Tailwind CSS
-- HTML5
-- CSS3
+☁️ Vercel (Deployment)
 
----
+📸 Preview
 
-## ✨ Key Features
+Add screenshots here (optional)
+You can add images inside a /screenshots folder and reference them like this:
 
-- 🎯 Clean and modern landing page design
-- 📱 Fully responsive across devices
-- ⚡ Fast build & performance with Vite
-- 🧩 Component-based architecture
-- 🎨 Utility-first styling with Tailwind CSS
-- 🚀 Optimized user experience
+![EasyHunt Landing Page](screenshots/home.png)
 
----
+📂 Project Setup
+1️⃣ Clone the repository
+git clone https://github.com/your-username/easy-hunt-landing.git
 
-## 🎯 Purpose of the Project
+2️⃣ Navigate to the project directory
+cd easy-hunt-landing
 
-- Practice modern React + TypeScript workflow
-- Build production-style responsive UI
-- Implement clean component structure
-- Strengthen frontend performance optimization concepts
+3️⃣ Install dependencies
+npm install
 
----
+4️⃣ Run the project locally
+npm run dev
+<<<<<<< HEAD
+=======
 
-⭐ If you find this project useful, consider starring the repository!
+🚀 Deployment (Vercel)
+
+This project is deployed using Vercel.
+
+Steps to deploy:
+
+Push the project to GitHub
+
+Go to https://vercel.com
+
+Import the GitHub repository
+
+Select Vite / React
+
+Click Deploy
+
+After deployment, Vercel provides a live URL:
+
+https://easy-hunt-landing-rho.vercel.app/
+
+✨ Features
+
+Responsive design
+
+Modern UI
+
+Fast load time
+
+SEO-friendly layout
+
+Mobile & desktop compatible
+>>>>>>> ad54611 (update)
