@@ -1,6 +1,6 @@
 # 🔍 EasyHunt – Job Search Landing Page
 
-🚀 **Live Demo:** https://easy-hunt-landing-zo5s.vercel.app/  
+🚀 **Live Demo:** https://easy-hunt-landing-rho.vercel.app/  
 📂 **GitHub Repository:** https://github.com/dinesh-bavaskar/easy-hunt-landing
 
 ---
@@ -17,7 +17,7 @@ Designed with performance and responsiveness in mind, the application demonstrat
 ## 🛠 Tech Stack
 
 - React.js
-- farmer Motion
+- Farmer motion
 - TypeScript
 - Vite
 - Tailwind CSS
